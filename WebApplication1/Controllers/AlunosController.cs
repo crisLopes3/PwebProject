@@ -17,6 +17,7 @@ namespace WebApplication1.Controllers
         // GET: Alunos
         public ActionResult Index()
         {
+            int a = 1;
             return View(db.Alunos.ToList());
         }
 
