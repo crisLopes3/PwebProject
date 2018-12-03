@@ -18,6 +18,7 @@ namespace WebApplication1.Controllers
         public ActionResult Index()
         {
             int a = 3;
+            var b = 6;
             return View(db.Alunos.ToList());
         }
 
